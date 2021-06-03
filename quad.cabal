@@ -4,13 +4,15 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1a224b5a4659a44ddb07e4273a34d1326d20f4cdfd7f24ae5451a37579e6fd47
+-- hash: 07333cdb169b8735bae71d73febc3c1937884c6409dfa058d1b19ef8c03204b5
 
 name:           quad
 version:        0.0.0
 build-type:     Simple
 
 library
+  exposed-modules:
+      Core
   other-modules:
       Paths_quad
   hs-source-dirs:
